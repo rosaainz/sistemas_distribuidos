@@ -7,6 +7,7 @@ package mx.uam.azc.sd.diccionarioudp_cliente;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.IOException;
 import java.net.*;
 
 /**
@@ -19,6 +20,12 @@ public class DiccionarioUDP_cliente extends JFrame{
     private JPanel buscarPanel;
     private JButton buscarButton;
     private JTextField buscarField;
+    
+    private DatagramSocket socket;
+    private InetAddress dirServidor;
+    private int puertoServidor = 9876;
+    
+    
 
     public DiccionarioUDP_cliente() {
         super("Diccionario");
@@ -55,6 +62,13 @@ public class DiccionarioUDP_cliente extends JFrame{
         buscarPanel.add(buscarButton);
         add(buscarPanel, BorderLayout.SOUTH);
 
+        try {
+            socket = new DatagramSocket();
+            dirServidor = InetAddress.getLocalHost();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800, 400);
         setVisible(true);
@@ -62,9 +76,29 @@ public class DiccionarioUDP_cliente extends JFrame{
 
     private void buscarTermino() {
         String termino = buscarField.getText();
-        JOptionPane.showMessageDialog(this, "Buscando definición de: " + termino);
+        String significado = obtenerSignificado(termino);
+        JOptionPane.showMessageDialog(this, "Significado de " + termino + ": " + significado);
     }
 
+    public String obtenerSignificado(String termino){
+        try {
+            // Enviar el término al servidor
+            byte[] sendData = termino.getBytes();
+            DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, dirServidor, puertoServidor);
+            socket.send(sendPacket);
+
+            // Recibir la respuesta del servidor
+            byte[] receiveData = new byte[1024];
+            DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
+            socket.receive(receivePacket);
+            return new String(receivePacket.getData()).trim();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return "Error al obtener el significado.";
+        }
+    }
+    
+    
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
