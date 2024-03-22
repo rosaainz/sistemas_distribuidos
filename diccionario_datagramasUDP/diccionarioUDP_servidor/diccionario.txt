@@ -1,0 +1,30 @@
+Amor: Sentimiento de afecto, inclinación y entrega hacia otra persona.
+Barco: Embarcación de gran tamaño que se utiliza para navegar por el mar.
+Casa: Edificio o construcción que sirve de vivienda a las personas.
+Delfin: Mamífero marino de la familia de los cetáceos, caracterizado por su inteligencia y agilidad.
+Escuela: Institución educativa donde se imparten enseñanzas y se forman alumnos.
+Fuego: Energía luminosa y calorífica producida por la combustión de materiales.
+Gato: Animal mamífero de la familia de los felinos, caracterizado por su agilidad y domesticabilidad.
+Hogar: Lugar donde se habita, generalmente asociado al ámbito familiar.
+Isla: Porción de tierra rodeada completamente por agua.
+Jardin: Espacio cultivado con plantas ornamentales y/o hortalizas.
+Kilometro: Unidad de medida de longitud equivalente a mil metros.
+Lapiz: Instrumento de escritura o dibujo que contiene grafito en su interior.
+Musica: Arte y técnica de combinar sonidos de forma armoniosa y expresiva.
+Nube: Masa de vapor de agua suspendida en la atmósfera.
+Ola: Movimiento ondulatorio que se forma en la superficie del mar.
+Papel: Material flexible y fino, generalmente blanco, utilizado para escribir o imprimir.
+Queso: Producto lácteo obtenido por la coagulación de la leche.
+Rana: Anfibio de cuerpo corto y patas largas adaptado para el salto.
+Silla: Asiento con respaldo y generalmente con cuatro patas, usado para sentarse.
+Tiempo: Duración de los sucesos y acontecimientos, medida en unidades como horas, días, etc.
+Uva: Fruto de la vid, generalmente utilizado para producir vino.
+Vaca: Hembra del toro, utilizada para la producción de leche y carne.
+Xilofono: Instrumento musical de percusión formado por láminas de madera dispuestas en orden de tamaño.
+Yacimiento: Lugar donde se encuentran depósitos naturales de minerales, petróleo u otros recursos.
+Zorro: Mamífero carnívoro de la familia de los cánidos, conocido por su astucia y agilidad.
+Elefante: Mamífero herbívoro de gran tamaño, caracterizado por su trompa y colmillos.
+Lluvia: Precipitación atmosférica de agua en forma de gotas.
+Manzana: Fruto comestible de forma redonda y color variado, típico del manzano.
+Nariz: Órgano del olfato y de la respiración en la cara de los mamíferos.
+Zapato: Calzado que cubre el pie y se sujeta al mismo mediante cordones o hebillas.

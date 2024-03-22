@@ -39,9 +39,9 @@ public class DiccionarioUDP_cliente extends JFrame{
         // Panel de palabras
         palabrasPanel = new JPanel(new GridLayout(3, 10));
         String[] palabras = {
-            "Amor", "Barco", "Casa", "Delfín", "Escuela", "Fuego", "Gato", "Hogar", "Isla", "Jardín",
-            "Kilómetro", "Lápiz", "Música", "Nube", "Ola", "Papel", "Queso", "Rana", "Silla", "Tiempo",
-            "Uva", "Vaca", "Xilófono", "Yacimiento", "Zorro", "Elefante", "Lluvia", "Manzana", "Nariz", "Zapato"
+            "Amor", "Barco", "Casa", "Delfin", "Escuela", "Fuego", "Gato", "Hogar", "Isla", "Jardin",
+            "Kilometro", "Lapiz", "Musica", "Nube", "Ola", "Papel", "Queso", "Rana", "Silla", "Tiempo",
+            "Uva", "Vaca", "Xilofono", "Yacimiento", "Zorro", "Elefante", "Lluvia", "Manzana", "Nariz", "Zapato"
         };
         for (String palabra : palabras) {
             palabrasPanel.add(new JLabel(palabra));
