@@ -50,7 +50,7 @@ public class ClienteTCP extends JFrame{
     
     private void enviarArchivo(File file) {
         try {
-            socket = new Socket("127.0.0.1", 12345); // Cambia la dirección y el puerto según tu configuración
+            socket = new Socket("localhost", 7896); // Cambia la dirección y el puerto según tu configuración
             outputStream = new DataOutputStream(socket.getOutputStream());
 
             // Envía el nombre del archivo
