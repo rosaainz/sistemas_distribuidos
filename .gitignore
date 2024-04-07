@@ -1,3 +1,6 @@
 /diccionario_datagramasUDP/diccionarioUDP_cliente/target/
 /diccionario_datagramasUDP/diccionarioUDP_servidor/target/
 .DS_Store
+/tcp_multicast/TCPCliente/target/
+/tcp_multicast/ClienteTCP/target/
+/tcp_multicast/ServidorTCP/target/
