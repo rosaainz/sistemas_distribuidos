@@ -1,0 +1,20 @@
+1234: Matematicas, Fisica, Quimica, Historia
+2341: Literatura, Biologia, Educación Fisica, Ingles
+3412: Economia, Geografia, Filosofia, Frances
+4123: Arte, Ciencias Naturales, Musica, Español
+5234: Programacion, Algebra, Tecnologia, Psicologia
+6451: Historia del Arte, Sociologia, Geometria, Aleman
+7512: Biologia Celular, Quimica Organica, Literatura , Educacion Civica
+8298: Estadistica, Derecho, Economia, Historia del Siglo XX
+9456: Ingenieria Civil, Geologia, Historia del Cine, Italiano
+1024: Psicologia, Nutricion, Lengua y Cultura Maya, Español
+1168:Robotica, Programación Avanzada, Algebra Lineal, Arte Digital
+1235: Literatura Latinoamericana, Filosofia del Lenguaje, Ecologia, Chino
+1312: Historia Antigua, Astronomia,  Arquitectura, Teatro
+1411: Biologia Marina, Ecologia, Economia Ecologica, Portugues
+1522: Derecho Penal, Sociologia Juridica, Historia Politica, Griego Clasico
+1666: Literatura Infantil, Psicologia Educativa, Filosofia, Ruso
+1784: Neurociencia, Bioquimica, Geopolitica, Coreano
+1857: Historia del Arte, Arquitectura del Renacimiento, Fotografia, Arabe
+1914: Economia, Estudios de Genero, Analisis Politico, Polaco
+2044: Psicologia Organizacional, Marketing, Ingles, Holandes
